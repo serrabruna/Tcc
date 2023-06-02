@@ -39,6 +39,14 @@ const routes: Routes = [
     path: 'remover-animal',
     loadChildren: () => import('./remover-animal/remover-animal.module').then( m => m.RemoverAnimalPageModule)
   },
+  {
+    path: 'gerenciar-animal',
+    loadChildren: () => import('./gerenciar-animal/gerenciar-animal.module').then( m => m.GerenciarAnimalPageModule)
+  },
+  {
+    path: 'cadastrar-animal',
+    loadChildren: () => import('./cadastrar-animal/cadastrar-animal.module').then( m => m.CadastrarAnimalPageModule)
+  },
 ];
 
 @NgModule({
