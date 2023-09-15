@@ -1,13 +1,118 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>josephine-baker</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-menu contentId="main-content">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">josephine-baker</ion-title>
     </ion-toolbar>
   </ion-header>
-</ion-content>
+
+
+  <ion-content class="ion-padding">
+
+    <ion-item button routerLink="/home">
+      <ion-label>Home</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/login">
+      <ion-label>Login</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/cadastrar">
+      <ion-label>Cadastrar</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/entrevistas">
+      <ion-label>Entrevistas</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/figuras">
+      <ion-label>Figuras LGBTQ+</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/trans">
+      <ion-label>Comunidade TRANS</ion-label>
+    </ion-item>
+    
+    <ion-item button routerLink="/paulogustavo">
+      <ion-label>Paulo Gustavo</ion-label>
+    </ion-item>
+
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="fundo">
+       <img width="100%" height="400px" src="https://media.vogue.fr/photos/61a5110f74868610a97366c0/16:9/w_3600,h_2025,c_limit/472913664" alt="">
+
+       <h1>Josephine Baker</h1>
+
+       <ion-row class="content">
+        <ion-col size="12" size-lg="4" size-xl="4"> 
+
+          <div class="content">
+            <div class="container">
+              <p>Josephine Baker, nascida em 1906 no estado de Missouri, Estados Unidos, emergiu como uma das artistas mais icônicas do século 20, deixando um legado duradouro 
+                no mundo da dança, da música e da luta pelos direitos civis. No entanto, sua vida também foi notável por outra razão: sua bissexualidade aberta e corajosa.</p>
+            </div>
+
+            <div class="container">
+              <p>Desde jovem, Josephine Baker demonstrou talento para a dança e o entretenimento, e sua carreira decolou quando ela se mudou para Paris na década de 1920. Na 
+                "Cidade Luz", ela se tornou uma sensação nos palcos com sua dança exótica e provocativa, muitas vezes vestida com roupas que desafiavam as convenções sociais da 
+                época.</p>
+            </div>
+
+            <div class="container">
+              <p>Enquanto sua carreira estava florescendo, sua vida pessoal também estava se desenvolvendo de maneira diversa. Baker teve relacionamentos íntimos com homens e 
+                mulheres ao longo de sua vida. Ela foi casada diversas vezes, incluindo com Jean Lion, um empresário francês, e com Jo Bouillon, um maestro francês. No entanto, 
+                há suposições de que Josephine também teve relacionamentos amorosos com mulheres notáveis, como Frida Kahlo e a escritora Colette.</p>
+            </div>
+
+            <div class="container">
+             <p> Sua bissexualidade não era apenas uma parte de sua vida pessoal; também a influenciou em sua carreira e ativismo. Como uma das figuras mais proeminentes da 
+              comunidade negra na França, Josephine Baker usou sua plataforma para lutar contra a segregação racial e a discriminação. Ela também se envolveu ativamente na 
+              resistência francesa durante a Segunda Guerra Mundial.</p>
+            </div>
+
+            <div class="container">
+              <p>
+                A coragem de Josephine Baker ao ser aberta sobre sua bissexualidade em uma época em que a homossexualidade ainda era estigmatizada é um testemunho de sua 
+                determinação em quebrar barreiras e desafiar as normas sociais. Ela não apenas desafiou as convenções de gênero e sexualidade, mas também usou sua fama para 
+                lutar pelos direitos civis e a igualdade.
+              </p>
+            </div>
+          </div>
+        </ion-col>
+       </ion-row>
+
+       <h2>Filmes de Joshine Baker</h2>
+
+       <ion-row>
+         <ion-col size="12" size-lg="3" size-xl="3">
+           <h3>Zou Zou</h3>
+           <img width="400px" height="500px" src="https://m.media-amazon.com/images/M/MV5BMTQxODkzNDI3MF5BMl5BanBnXkFtZTgwOTM1MTA5MTE@._V1_.jpg" class="img">
+         </ion-col>
+
+         <ion-col size="12" size-lg="3" size-xl="3">
+           <h3>Le Pompier des Folies Bergères</h3>
+           <img width="400px" height="500px" src="https://i.pinimg.com/originals/1b/cf/f6/1bcff6d67973da418dc4ba9aeebe69f4.jpg" class="img">
+         </ion-col>
+
+         <ion-col size="12" size-lg="3" size-xl="3">
+           <h3>La Revue des Revues</h3>
+           <img width="400px" height="500px" src="https://m.media-amazon.com/images/M/MV5BMTg0MjYwMjQ0NF5BMl5BanBnXkFtZTgwMTM1MTA5MTE@._V1_.jpg" class="img">
+         </ion-col>
+
+         <ion-col size="12" size-lg="3" size-xl="3">
+           <h3>La Sirène des Tropiques</h3>
+           <img width="400px" height="500px" src="https://m.media-amazon.com/images/M/MV5BMjI2ODI0OTAwOV5BMl5BanBnXkFtZTgwMjI2MTA5MTE@._V1_.jpg" class="img">
+         </ion-col>
+       </ion-row>
+      
+  </ion-content>
