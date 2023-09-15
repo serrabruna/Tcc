@@ -89,19 +89,10 @@ color: rgb(192, 0, 0);
 
 
 ion-content{
-
 --background: #F8F3E6;
 }
 
-#footer{
-clear: both;
-bottom: 0;          
-width: 100%;
-background-color: #3a3a3a;
-color: white;
-position: fixed;
-padding-bottom: 12px;
-}
+
 
 .box {
 width: 400px;
@@ -116,22 +107,3 @@ width: 100%;
 
 }
 
-
-* {
-  box-sizing: border-box;
-}
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.esq {
-  flex-basis: 100%;
-  background-image: radial-gradient(transparent, rgba(0,0,0,0.9)), url(/src/assets/);
-  background-size: cover;
-}
-
-@media screen and (max-width: 660px) {
-  .container > div {
-      flex-basis: 100%;
-  }
-}
