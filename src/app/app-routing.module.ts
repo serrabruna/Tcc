@@ -52,6 +52,14 @@ const routes: Routes = [
     path: 'trans',
     loadChildren: () => import('./trans/trans.module').then( m => m.TransPageModule)
   },
+  {
+    path: 'figuras',
+    loadChildren: () => import('./figuras/figuras.module').then( m => m.FigurasPageModule)
+  },
+  {
+    path: 'paulogustavo',
+    loadChildren: () => import('./paulogustavo/paulogustavo.module').then( m => m.PaulogustavoPageModule)
+  },
 ];
 
 @NgModule({

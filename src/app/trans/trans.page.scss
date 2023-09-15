@@ -1,0 +1,53 @@
+.logo{
+    width: 200px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida  Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+:root {
+
+    --ion-color-primary: #F8F3E6;
+    --ion-color-primary-rgb: 248,243,230;
+    --ion-color-primary-contrast: #000000;
+    --ion-color-primary-contrast-rgb: 0,0,0;
+    --ion-color-primary-shade: #dad6ca;
+    --ion-color-primary-tint: #f9f4e9;
+  
+
+}
+
+
+
+ion-item {
+  --background: #F8F3E6;
+  padding-top: 20px;
+  color: rgb(192, 0, 0);
+
+  --detail-icon-color: rgb(0, 0, 0);
+  --detail-icon-opacity: 1;
+  --detail-icon-font-size: 20px;
+}
+
+
+ion-content{
+  
+  --background: #F8F3E6;
+}
+
+#footer{
+  clear: both;
+  bottom: 0;          
+  width: 100%;
+  background-color: #3a3a3a;
+  color: white;
+  position: fixed;
+  padding-bottom: 12px;
+}
+
+#footer footer{
+     text-align: center; 
+}

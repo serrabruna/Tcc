@@ -1,0 +1,125 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <ion-content class="ion-padding">
+
+    <ion-item button routerLink="/home">
+      <ion-label>Home</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/login">
+      <ion-label>Login</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/cadastrar">
+      <ion-label>Cadastrar</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/ongs">
+      <ion-label>ONGS LGBTQ+</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/entrevistas">
+      <ion-label>Entrevistas</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/trans">
+      <ion-label>Comunidade TRANS</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/paulogustavo">
+      <ion-label>Paulo Gustavo</ion-label>
+    </ion-item>
+
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content [fullscreen]="true">
+  <h2>Figuras Importantes LGBTQUIA+</h2>
+  <p>Aqui você encontrará histórias inspiradoras de pessoas que desempenharam um papel fundamental 
+    na luta pelos direitos e pela visibilidade da diversidade sexual e de gênero. Desde líderes ativistas
+   até artistas visionários, queremos compartilhar com você as contribuições e conquistas desses indivíduos
+   que ajudaram a moldar e transformar nossa sociedade. Junte-se a nós enquanto exploramos as vidas 
+   e o legado dessas figuras notáveis, destacando sua coragem, resiliência e impacto duradouro na busca
+   pela igualdade e inclusão para todos.</p>
+
+  <ion-row>
+    <ion-col size="12" size-lg="12" size-xl="4">
+      <ion-card routerLink="/davinci">
+        <img alt="Leonardo Da Vinci" src="https://tse1.mm.bing.net/th?id=OIP._alvSlsuinV1Z3ZS6BUJ2wHaFj&pid=Api&P=0&h=180" />
+        <ion-card-header>
+          <ion-card-title>Leonardo Da Vinci</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Apesar de não haver certezas se era realmente homossexual,não deixa de ser uma figura importante 
+          para a comunidade.Saiba Mais
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="12" size-lg="12" size-xl="4">
+      <ion-card routerLink="/josephine-baker">
+        <img alt="Josephine Baker" src="https://media.vogue.fr/photos/61a5110f74868610a97366c0/16:9/w_3600,h_2025,c_limit/472913664" />
+        <ion-card-header>
+          <ion-card-title>Josephine Baker</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Artista afro-americana que lutou contra a segregação racial,se identificava como bissexual.Saiba Mais
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="12" size-lg="12" size-xl="4">
+      <ion-card routerLink="/marsha-johnson">
+        <img alt="Marsha P Johnson" src="https://i.guim.co.uk/img/media/f81bb42a3314f5c4702cd08406c1bd89fa1f4fe8/0_2_2500_1499/master/2500.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=00fdca93446c99792cfc81e7074072bc" />
+        <ion-card-header>
+          <ion-card-title>Marsha P Johnson</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Marsha P. Johnson era uma mulher negra trans, uma trabalhadora do sexo e ativista que passou grande parte de sua vida lutando por igualdade.Saiba Mais
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="12" size-lg="12" size-xl="4">
+      <ion-card routerLink="/marsha-johnson">
+        <img alt="Alan Turing" src="https://impa.br/wp-content/uploads/2017/09/Alan1.jpg" />
+        <ion-card-header>
+          <ion-card-title>Alan Turing</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+         Conhecido como pai da computação e por sua contribuição na vitória dos Aliados na Segunda Guerra Mundial,sofreu castração quimica por ser gay.Saiba Mais
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>
+</div>
+
+<div id="footer">
+  <footer>
+    <p>&copy; 2023 - Todos os direitos reservados</p>
+    Entre em contato pelo e-mail:
+    <a  href="#" onclick="window.open('http://google.com', '_system', 'location=yes'); return false;"> institutopaulogustavo@gmail.com </a>  </footer>
+</div>

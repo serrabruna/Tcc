@@ -1,13 +1,119 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>ongs</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-menu contentId="main-content">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">ongs</ion-title>
     </ion-toolbar>
   </ion-header>
-</ion-content>
+
+
+  <ion-content class="ion-padding">
+
+    <ion-item button routerLink="/home">
+      <ion-label>Home</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/login">
+      <ion-label>Login</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/cadastrar">
+      <ion-label>Cadastrar</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/entrevistas">
+      <ion-label>Entrevistas</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/figuras">
+      <ion-label>Figuras LGBTQ+</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/trans">
+      <ion-label>Comunidade TRANS</ion-label>
+    </ion-item>
+    
+    <ion-item button routerLink="/paulogustavo">
+      <ion-label>Paulo Gustavo</ion-label>
+    </ion-item>
+
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <ion-content>
+    <h2>O Que é o Instituto Paulo Gustavo?</h2>
+
+    <p>
+      Paulo Gustavo Amaral Monteiro de Barros foi um ator, humorista e apresentador brasileiro, nascido em Niterói (RJ), ganhou enorme reconhecimento com sua personagem Dona Hermínia, uma mãe e dona de casa, protagonista dos três filmes da série Minha Mãe é Uma Peça. 
+    Assumidamente homossexual, Paulo tratou assuntos relevantes como a valorização da população LGBTQIA+ de maneira leve e bem humorada, levando o debate para milhares de pessoas.
+    Aos 42 anos, em 4 de maio de 2021 Paulo Gustavo faleceu, vítima de COVID-19. Assim, o Instituto Paulo Gustavo, criado em memória do renomado ator e comediante brasileiro, tem como objetivo direcionar e apoiar a comunidade LGBTQ+ em diversos aspectos. O instituto busca oferecer suporte emocional, social e educacional para pessoas LGBT e promover a inclusão, a igualdade de direitos e a valorização da diversidade.
+    </p>
+    
+    
+    
+    <p align="center">
+      <img width="500" height="280" src="https://media.gazetadopovo.com.br/2021/05/05095532/paulogustavo2-960x540.jpeg">
+    </p>
+      
+    
+    
+    
+      <h2>ONGs que ajudam a comunidade LGBTQIA+ no Brasil:</h2>
+      <h3>Existem várias organizações não governamentais (ONGs) que atuam em prol dos direitos e bem-estar da comunidade LGBTQ no Brasil. Algumas delas são:</h3>
+    
+    
+      <p align="center">
+        <img width="500" height="280" src="https://s2.glbimg.com/OuJp3cftlWYLOebLC_yAUBSFTlc=/0x0:1920x1280/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/b/q/EXDHoYSzuF7PAALGRt9Q/flag-4552833-1920-1-.jpg">
+      </p>
+    
+     
+      <h1>
+        <a href="https://www.casaum.org/"
+           title="Fundada em 2017, a Casa 1 é um projeto de sociedade civil. Somos uma Republica de Acolhida, um Centro Cultural e uma Clínica Social. Tudo junto, pela comunidade LGBTQIAPN+"> Casa 1</a>
+      </h1>
+      
+    
+    <p>
+      A casa um é um projeto enorme que envolve centro de acolhida, clínica social, centro cultural e uma série de outras ações de saúde, acolhimento, diversidade e muito mais. Por isso, a instituição tem em sua base um forte trabalho voluntário e conta muito com doações de roupas, objetos e dinheiro – via financiamento coletivo, transferência e depósito bancário, PicPay e PayPal.
+    </p>
+    
+    <h1>
+      <a href="https://eternamentesou.org/"
+         title="Uma associação sem fins lucrativos que iniciou os trabalhos em 2017 na cidade de São Paulo com objetivo de atuar em prol das pessoas idosas LGBT."> EternamenteSou</a>
+    </h1>
+    
+    <p>
+    A ONG tem como missão a luta por um envelhecimento ativo, digno e acolhedor às minorias LGBT 60+. O projeto busca valorizar seus direitos e as memórias de sua vivência. Por isso, funciona como um centro de convivência que acolhe e integra por meio de voluntariado multidisciplinar (psicólogo, assistente social, médicos e advogados), em prol da promoção da cidadania dessas pessoas. Atualmente, a instituição atua em São Paulo, Rio de Janeiro e Santa Catarina.
+    </p>
+    
+    <h1>
+      <a href="https://www.casachama.org/"
+         title="A Casa Chama é uma ONG fundada e coordenada por pessoas transvestigêneres."> Casa Chama</a>
+    </h1>
+      
+    <p>
+    Nascida em 2019 no estado de São Paulo, surgiu com o objetivo de amparar as pessoas trans nos aspectos atendimento de saúde, assistência jurídica e projetos culturais. A Casa Chama acolhe pessoas transgênero, transexuais e travestis presencialmente e dá apoio a centenas de outras remotamente. Por isso, o projeto conta com o apoio de voluntários e doações para manter as operações.
+    </p>
+      
+      
+  </ion-content>
+
+</div>
+
+ 
+<div id="footer">
+  <footer>
+    <p>&copy; 2023 - Todos os direitos reservados</p>
+    Entre em contato pelo e-mail:
+    <a  href="#" onclick="window.open('http://google.com', '_system', 'location=yes'); return false;"> institutopaulogustavo@gmail.com </a>
+    </footer>
+</div>

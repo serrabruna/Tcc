@@ -1,27 +1,104 @@
+<ion-menu contentId="main-content">
+  
+    
+    
+  <ion-content class="ion-padding">
 
-<ion-content [fullscreen]="true" class="plano-de-fundo">
-  <ion-row class="ion-justify-content-center">
-    <ion-col size="12" size-lg="8" size-xl="6" class="full-height">
+  
 
-      <ion-row>
-        <ion-col size="12" class="ion-text-center" class="titulo">
-          <ion-label>Encontre o seu melhor amigo!</ion-label>
-        </ion-col>
-      </ion-row>
+    <ion-item button routerLink="/login">
+      <ion-label>Login</ion-label>
+    </ion-item>
 
-      <ion-row>
-        <ion-col size="12" class="ion-text-center">
-          <ion-button color="primary" shape="rounded" routerLink="/login">Login</ion-button>
-        </ion-col>
-      </ion-row>
+    <ion-item button routerLink="/cadastrar">
+      <ion-label>Cadastrar</ion-label>
+    </ion-item>
 
-      <ion-row>
-        <ion-col size="12" class="ion-text-center">
-          <ion-button color="secondary" shape="rounded" routerLink="/register">Registrar-se</ion-button>
-        </ion-col>
-      </ion-row>
+    <ion-item button routerLink="/entrevistas">
+      <ion-label>Entrevistas</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/ongs">
+      <ion-label>ONGS LGBTQ+</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/figuras">
+      <ion-label>Figuras LGBTQ+</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/trans">
+      <ion-label>Comunidade TRANS</ion-label>
+    </ion-item>
+    
+    <ion-item button routerLink="/paulogustavo">
+      <ion-label>Paulo Gustavo</ion-label>
+    </ion-item>
+
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-img src="/Tcc/src/assets/imagens/logo.png" alt=""></ion-img>
+    </ion-toolbar>
+  </ion-header>
 
 
-    </ion-col>
-  </ion-row>
-</ion-content>
+  <ion-content>
+    
+
+
+   
+
+    <h1>Somos uma instituição sem fins lucrativos, que tem como objetivo auxiliar e informar a comunidade LGBTQIA+, em nome do ator e comediante Paulo Gustavo.</h1>
+
+
+
+<h2 style="color: black; font-size: 34px; text-align: center; font-weight: bold;">Sobre Nós</h2>
+
+
+<div class="container">
+
+
+<!-- Seção com cards -->
+<section class="secao4" id="sobre">
+<div class="secao4-div">
+
+  <!-- Card 1 -->
+  <div class="secao4-div-card">
+      <img style="width:100%;" decoding="async" src="./assets/img1card.png" alt="imagem do card 1 html e css">
+      <p>Atuamos em defesa das pessoas LGBTQIA+, levando insformações sobre e para a comunidade.</p>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="secao4-div-card">
+      <img decoding="async" src="" alt="imagem do card 2 html e css">
+      <p>Descrição do card 2.</p>
+  </div>
+</div>
+</section>
+
+</div>
+
+  
+
+
+  </ion-content>
+</div>
+
+
+
+
+
+
+<div id="footer">
+<footer>
+<p>&copy; 2023 - Todos os direitos reservados</p>
+Entre em contato pelo e-mail:
+<a  href="#" onclick="window.open('http://google.com', '_system', 'location=yes'); return false;"> institutopaulogustavo@gmail.com </a>
+</footer>
+</div>
