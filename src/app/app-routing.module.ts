@@ -16,36 +16,41 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
   {
-    path: 'register',
-    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
-  },
-  {
+  
     path: 'add',
     loadChildren: () => import('./add/add.module').then( m => m.AddPageModule)
   },
   {
-    path: 'visualizar-animal',
-    loadChildren: () => import('./visualizar-animal/visualizar-animal.module').then( m => m.VisualizarAnimalPageModule)
+    path: 'davinci',
+    loadChildren: () => import('./davinci/davinci.module').then( m => m.DavinciPageModule)
   },
   {
-    path: 'consultar-animal',
-    loadChildren: () => import('./consultar-animal/consultar-animal.module').then( m => m.ConsultarAnimalPageModule)
+    path: 'alan-turing',
+    loadChildren: () => import('./alan-turing/alan-turing.module').then( m => m.AlanTuringPageModule)
   },
   {
-    path: 'editar-animal',
-    loadChildren: () => import('./editar-animal/editar-animal.module').then( m => m.EditarAnimalPageModule)
+    path: 'cadastrar',
+    loadChildren: () => import('./cadastrar/cadastrar.module').then( m => m.CadastrarPageModule)
   },
   {
-    path: 'remover-animal',
-    loadChildren: () => import('./remover-animal/remover-animal.module').then( m => m.RemoverAnimalPageModule)
+    path: 'entrevistas',
+    loadChildren: () => import('./entrevistas/entrevistas.module').then( m => m.EntrevistasPageModule)
   },
   {
-    path: 'gerenciar-animal',
-    loadChildren: () => import('./gerenciar-animal/gerenciar-animal.module').then( m => m.GerenciarAnimalPageModule)
+    path: 'josephine-baker',
+    loadChildren: () => import('./josephine-baker/josephine-baker.module').then( m => m.JosephineBakerPageModule)
   },
   {
-    path: 'cadastrar-animal',
-    loadChildren: () => import('./cadastrar-animal/cadastrar-animal.module').then( m => m.CadastrarAnimalPageModule)
+    path: 'marsha-johnson',
+    loadChildren: () => import('./marsha-johnson/marsha-johnson.module').then( m => m.MarshaJohnsonPageModule)
+  },
+  {
+    path: 'ongs',
+    loadChildren: () => import('./ongs/ongs.module').then( m => m.OngsPageModule)
+  },
+  {
+    path: 'trans',
+    loadChildren: () => import('./trans/trans.module').then( m => m.TransPageModule)
   },
 ];
 
