@@ -115,3 +115,23 @@ background-color: rgb(255, 255, 208);
 width: 100%;
 
 }
+
+
+* {
+  box-sizing: border-box;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.esq {
+  flex-basis: 100%;
+  background-image: radial-gradient(transparent, rgba(0,0,0,0.9)), url(/src/assets/);
+  background-size: cover;
+}
+
+@media screen and (max-width: 660px) {
+  .container > div {
+      flex-basis: 100%;
+  }
+}
