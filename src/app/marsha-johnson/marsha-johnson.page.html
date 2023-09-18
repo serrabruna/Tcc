@@ -1,13 +1,96 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>marsha-johnson</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-menu contentId="main-content">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">marsha-johnson</ion-title>
     </ion-toolbar>
   </ion-header>
-</ion-content>
+
+
+  <ion-content class="ion-padding">
+
+    <ion-item button routerLink="/home">
+      <ion-label>Home</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/login">
+      <ion-label>Login</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/cadastrar">
+      <ion-label>Cadastrar</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/entrevistas">
+      <ion-label>Entrevistas</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/figuras">
+      <ion-label>Figuras LGBTQ+</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/trans">
+      <ion-label>Comunidade TRANS</ion-label>
+    </ion-item>
+    
+    <ion-item button routerLink="/paulogustavo">
+      <ion-label>Paulo Gustavo</ion-label>
+    </ion-item>
+
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="fundo">
+       <img width="100%" height="400px" src="https://transdevna.com/employeehub/wp-content/uploads/sites/4/2020/06/Marsha-P-Johnson.png">
+
+       <h1>Marsha P. Johnson</h1>
+
+       <ion-row class="content">
+        <ion-col size="12" size-lg="4" size-xl="4">
+          <div class="content">
+            <div class="container">
+              <p>Marsha P. Johnson, nascida em 1945, é lembrada como uma das figuras mais influentes e resilientes da história dos direitos LGBT+. Sua vida foi marcada por uma 
+                dedicação inabalável à justiça, igualdade e inclusão, tornando-a uma heroína e um ícone da comunidade LGBT+.</p>
+            </div>
+
+            <div class="container">
+              <p>Nascida em Elizabeth, Nova Jersey, Marsha enfrentou uma jornada difícil desde cedo. Como uma mulher negra e transgênero em uma época de discriminação e 
+                intolerância, ela enfrentou inúmeras adversidades. No entanto, sua coragem e determinação a levaram a Nova York, onde encontrou um lugar para si mesma na cena 
+                emergente de Stonewall.</p>
+            </div>
+
+            <div class="container">
+              <p>Marsha P. Johnson é talvez mais conhecida por seu papel fundamental nos eventos que ocorreram na noite de 28 de junho de 1969, na famosa Taverna Stonewall Inn, 
+                quando um levante espontâneo contra a brutalidade policial deu início ao Movimento pelos Direitos LGBT+. Marsha estava na linha de frente da resistência, 
+                lançando o primeiro tijolo que simbolizou a revolta e resistência do movimento.</p>
+            </div>
+
+            <div class="container">
+              <p>Além de seu envolvimento no Stonewall, Marsha também foi uma das fundadoras da organização ativista Street Transvestite Action Revolutionaries (STAR), 
+                juntamente com Sylvia Rivera. A STAR ofereceu refúgio e apoio a jovens LGBTQ+ sem-teto, fornecendo abrigo, comida e carinho a uma comunidade frequentemente 
+                marginalizada.</p>
+            </div>
+
+            <div class="container">
+              <p>Marsha P. Johnson também era uma artista talentosa. Ela era uma figura marcante nas paradas do Village, onde se apresentava como drag queen. Sua personalidade 
+                vibrante e autenticidade serviram como um farol para outros que estavam lutando para encontrar sua própria voz e identidade.</p>
+            </div>
+
+            <div class="container">
+              <p>Tragicamente, em 1992, Marsha P. Johnson foi encontrada morta no rio Hudson, e as circunstâncias de sua morte ainda geram debates e dúvidas. No entanto, sua 
+                vida e legado continuam a inspirar pessoas em todo o mundo. Ela é lembrada como uma pioneira na luta pelos direitos LGBT+ e como um símbolo de coragem, 
+                resistência e amor próprio.</p>
+            </div>
+          </div>
+          
+        </ion-col>
+       </ion-row>
+  </ion-content>

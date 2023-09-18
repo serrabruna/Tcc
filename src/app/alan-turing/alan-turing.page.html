@@ -1,13 +1,102 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>alan-turing</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-menu contentId="main-content">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">alan-turing</ion-title>
     </ion-toolbar>
   </ion-header>
-</ion-content>
+
+
+  <ion-content class="ion-padding">
+
+    <ion-item button routerLink="/home">
+      <ion-label>Home</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/login">
+      <ion-label>Login</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/cadastrar">
+      <ion-label>Cadastrar</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/entrevistas">
+      <ion-label>Entrevistas</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/figuras">
+      <ion-label>Figuras LGBTQ+</ion-label>
+    </ion-item>
+
+    <ion-item button routerLink="/trans">
+      <ion-label>Comunidade TRANS</ion-label>
+    </ion-item>
+    
+    <ion-item button routerLink="/paulogustavo">
+      <ion-label>Paulo Gustavo</ion-label>
+    </ion-item>
+
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="fundo">
+       <img width="100%" height="400px" src="https://i2.wp.com/www.colegiopraxis.com.br/wp-content/uploads/2021/11/FotoLeonardoDavinci.jpg?fit=800%2C450&ssl=1">
+    
+       <h1>Alan Turing</h1>
+
+       <ion-row class="content">
+        <ion-col size="12" size-lg="4" size-xl="4">
+          <div class="content">
+
+            <div class="container">
+              <p>Alan Mathison Turing, nascido em 23 de junho de 1912, na Inglaterra, foi um matemático, lógico e pioneiro da ciência da computação cujo trabalho teve um 
+                impacto transformador no mundo moderno. Ele é mais conhecido por suas contribuições para a quebra do código Enigma durante a Segunda Guerra Mundial e por 
+                sua concepção da "máquina de Turing", um conceito fundamental na teoria da computação.</p>
+            </div>
+
+            <div class="container"> 
+              <p>Durante a Segunda Guerra Mundial, Turing desempenhou um papel vital na Bletchley Park, uma instalação britânica de decifração de códigos. Lá, ele liderou uma 
+                equipe de especialistas em criptografia na decifração do código Enigma, uma máquina de criptografia alemã considerada indecifrável na época. O sucesso de Turing 
+                e sua equipe na quebra do Enigma é amplamente creditado por acelerar o fim da guerra e salvar inúmeras vidas.</p>
+            </div>
+
+            <div class="container">
+              <p>Após a guerra, Turing continuou a contribuir significativamente para o campo da computação. Ele desenvolveu a ideia abstrata da "máquina de Turing", que é 
+                frequentemente considerada o modelo conceitual para um computador universal. Esse conceito se tornou fundamental na teoria da computação e foi uma pedra 
+                fundamental no desenvolvimento dos computadores modernos.</p>
+            </div>
+
+            <div class="container">
+              <p>No entanto, a vida de Turing também foi marcada por desafios pessoais. Ele era homossexual em uma época em que a homossexualidade era ilegal no Reino Unido. Em 
+                1952, ele foi processado por "conduta indecente" devido a seu relacionamento com outro homem. Em vez de enfrentar a prisão, Turing optou pela castração química. 
+                Este evento trágico teve um profundo impacto em sua saúde física e emocional.</p>
+            </div>
+
+            <div class="container">
+              <p>Alan Turing faleceu em 7 de junho de 1954, aos 41 anos, devido a uma aparente ingestão de cianeto, em circunstâncias que ainda geram debate e discussão. Sua 
+                morte prematura foi uma perda significativa para a ciência e a humanidade.</p>
+            </div>
+
+            <div class="container">
+              <p>Alan Turing faleceu em 7 de junho de 1954, aos 41 anos, devido a uma aparente ingestão de cianeto, em circunstâncias que ainda geram debate e discussão. Sua 
+                morte prematura foi uma perda significativa para a ciência e a humanidade.</p>
+            </div>
+
+            <div class="container">
+              <p>Felizmente, nas décadas que se seguiram, a contribuição de Turing para a computação e a decifração do código Enigma foi reconhecida e celebrada. Ele é 
+                amplamente considerado um herói de guerra e um dos fundadores da ciência da computação. Em 2013, o governo britânico concedeu uma anistia póstuma a Alan Turing,
+                 reconhecendo oficialmente a injustiça que ele sofreu devido a sua orientação sexual.</p>
+            </div>
+          </div>
+        </ion-col>
+       </ion-row>
+  </ion-content>
