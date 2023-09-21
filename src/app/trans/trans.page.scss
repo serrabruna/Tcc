@@ -53,3 +53,21 @@ ion-content{
 #footer footer{
      text-align: center; 
 }
+
+p{
+  font-size:23px;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
