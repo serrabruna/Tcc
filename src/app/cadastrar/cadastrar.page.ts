@@ -8,18 +8,13 @@ import { CrudService } from '../services/crud.service';
   styleUrls: ['./cadastrar.page.scss'],
 })
 export class CadastrarPage {
-  public alertButtons = ['OK'];
 
   constructor(
-    private _authenticate: AuthenticateService,
-    private _crudService: CrudService
+    private _authenticate: AuthenticateService
     ){ }
 
     criarConta(dados: any){
-      console.log(dados);
-      console.log(dados.email);
-      console.log(dados.senha);
-      console.log(dados.confirmsenha);
+      this._authenticate.register(dados.email,dados.password)
     
 
   }

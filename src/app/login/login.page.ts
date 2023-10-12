@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthenticateService } from '../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -6,16 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage {
- 
-  public alertButtons = ['OK'];
 
-  constructor(){}
+
+  constructor(
+    private _authenticate: AuthenticateService
+  ){}
 
     realizarLogin(dados: any){
-      console.log(dados);
-      console.log(dados.email);
-      console.log(dados.senha);
-    
+     this._authenticate.login(dados.email, dados.password)
   }
 
 }

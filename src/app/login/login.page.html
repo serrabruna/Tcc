@@ -18,23 +18,15 @@
                 <ion-label position="fixed">Email</ion-label>
                 <ion-input type="email" name="email" ngModel type="text" ></ion-input>
                 <ion-note slot="helper">Entre com um Email válido</ion-note>
-                <ion-note slot="error">Email Inválido</ion-note>
               </ion-item>
     
               <ion-item>
-                <ion-input label="Senha" name="senha" ngModel type="password"></ion-input>
+                <ion-input label="Senha" name="password" ngModel type="password"></ion-input>
               </ion-item>
     
               <ion-item lines="none">
                 <ion-button color="medium" shape="rounded" slot="start" routerLink="/home">Voltar</ion-button>
                 <ion-button type="submit" color="primary" shape="rounded" slot="end" id="present-alert">Login</ion-button>
-                <ion-alert 
-                  trigger="present-alert"
-                  header="Login Concluído!"
-                  message="Seu login foi concluído com sucesso!"
-                  [buttons]="alertButtons"
-                  routerLink="/home"
-                ></ion-alert> 
               </ion-item>
             </form>
     

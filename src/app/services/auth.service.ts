@@ -29,6 +29,7 @@ export class AuthenticateService {
 
         createUserWithEmailAndPassword(this.auth, email, password)
         .then(() => {
+            this.redirectTo('/login');
             this._message.show('Conta criada com sucesso! Realize o Login!!!');
         })
         .catch((_: any) => {
@@ -54,6 +55,7 @@ export class AuthenticateService {
         .then((response: any) => {
             console.log(response.user);
             this._message.show('Login Realizado com Sucesso!');
+            this.redirectTo('/home')
         })
         .catch((_: any) => {
             this.showErro(_, email, password);
