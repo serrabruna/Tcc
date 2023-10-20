@@ -30,11 +30,6 @@ h3{
     font-size: 20px;
 }
 
-.logo{
-    width: 200px;
-}
-
-
 :root {
 
     --ion-color-primary: #F8F3E6;
@@ -104,4 +99,9 @@ ion-content{
 
   p{
     font-size:23px;
+}
+
+#logo{
+  width:250px;
+  height:100px;
 }

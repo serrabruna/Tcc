@@ -12,7 +12,7 @@
         <ion-col size="12" class="ion-text-center">
 
           <ion-card>
-            <ion-card-content>
+            <ion-card-content>   
 
              <form #criarContaForm = "ngForm" (ngSubmit)="criarConta(criarContaForm.value)">
               <ion-item>
@@ -23,13 +23,9 @@
               </ion-item>
     
               <ion-item>
-                <ion-input label="Senha" name="password" ngModel type="password"></ion-input>
+                <ion-label position="fixed">Senha</ion-label>
+                <ion-input name="password" ngModel type="password"></ion-input>
               </ion-item>
-
-              <ion-item>
-                <ion-input label=" Confirmar Senha" name="confirmsenha" ngModel type="password"></ion-input>
-              </ion-item>
-    
     
               <ion-item lines="none">
                 <ion-button color="medium" shape="rounded" slot="start" routerLink="/home">Voltar</ion-button>
