@@ -38,6 +38,9 @@ ion-button{
 
 h1{
   text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: serif;
 }
 
 #footer{
@@ -47,16 +50,24 @@ h1{
   background-color: #3a3a3a;
   color: white;
   position: fixed;
-  padding-bottom: 12px;
+  --padding-bottom: 20px;
 }
 
 #footer footer{
      text-align: center; 
+     padding-bottom: 12px;
+
+}
+
+
+h5{
+  font-size:18px;
 }
 
 p{
   font-size:23px;
 }
+
 
 .container{
   display:flex;
