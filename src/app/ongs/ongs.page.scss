@@ -1,8 +1,4 @@
-p{
-    margin-left: 4px;
-    font-size: 30px;
 
-}
 
 ion-img{
     width: 400px;
@@ -18,7 +14,11 @@ ion-img{
 
 ion-content{
     margin: 12px;
+    --padding-bottom: 30px;
 }
+
+
+h2
 
 h2{
     font-size: 40px;
@@ -27,17 +27,14 @@ h2{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 32px;
 
 }
 
 h3{
-    font-size: 30px;
+    font-size: 22px;
 }
 
-.logo{
-    width: 200px;
-}
 
 
 :root {
@@ -71,22 +68,29 @@ ion-content{
 }
 
 #footer{
-    clear: both;
-    bottom: 0;          
-    width: 100%;
-    background-color: #3a3a3a;
-    color: white;
-    position: fixed;
-    padding-bottom: 12px;
-  }
-  
-  #footer footer{
-       text-align: center; 
-  }
+  clear: both;
+  bottom: 0;          
+  width: 100%;
+  background-color: #3a3a3a;
+  color: white;
+  position: fixed;
+  --padding-bottom: 20px;
+}
 
-  p{
-    font-size: 23px;
-  }
+#footer footer{
+     text-align: center; 
+     padding-bottom: 12px;
+
+}
+
+
+h5{
+  font-size:18px;
+}
+
+p{
+  font-size:23px;
+}
 
   .container{
     display:flex;
