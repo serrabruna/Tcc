@@ -18,3 +18,5 @@ import { EntrevistasPage } from './entrevistas.page';
   declarations: [EntrevistasPage]
 })
 export class EntrevistasPageModule {}
+
+

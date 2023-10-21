@@ -32,9 +32,7 @@ ion-content{
 
 }
 
-h1{
-  text-align: center;
-}
+
 
 #footer{
   clear: both;
@@ -53,9 +51,6 @@ h1{
 }
 
 
-h5{
-  font-size:18px;
-}
 
 p{
   font-size:23px;
@@ -64,4 +59,17 @@ p{
 #logo{
   width:250px;
   height:100px;
+}
+
+h1{
+  text-align: center;
+  color: gray;
+  font-size: 43px;
+  font-family: serif;
+}
+
+#video {
+
+width: 100px;
+
 }
